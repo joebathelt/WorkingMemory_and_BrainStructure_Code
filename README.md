@@ -8,9 +8,8 @@ The following files are contained in this repository:
 - WorkingMemory_CorticalThickness_Analysis.ipynb : IPython notebook containing the statistical analysis of cortical thickness data
 
 
-""""""""""""""""""""""""""""""""" 
-## Description of the methods
-"""""""""""""""""""""""""""""""""
+## Description of the methods  
+
 _NB: The following description is taken from the Methods section of the paper_
 
 3.4  Processing of diffusion-weighted data
