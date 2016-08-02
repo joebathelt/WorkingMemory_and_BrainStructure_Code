@@ -4,6 +4,9 @@ Data processing and statistical analysis scripts for the paper "Changes in brain
 The following files are contained in this repository: 
 - CorticalThickness_Eigenanatomy_Decomposition.R: R script to run eigenanatomy decomposition on cortical thickness maps in common space using ANTsR
 - FA_Eigenanatomy_Decomposition.R: R script to run eigenanatomy decomposition on FA maps in common space using ANTsR 
+- run_GM_template_construction: Python script that calls workflows to construct a template based on input images
+- run_FA_template_construction: Python script that calls workflows to construct a template based on input FA images
+- T1_workflows: Python script with workflows for generating template, calculating thickness maps, and deriving intracranial volume
 - WorkingMemory_FA_analysis.ipynb: IPython notebook containing the statistical analysis of FA results
 - WorkingMemory_CorticalThickness_Analysis.ipynb : IPython notebook containing the statistical analysis of cortical thickness data
 
