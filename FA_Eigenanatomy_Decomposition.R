@@ -16,8 +16,14 @@ mat  <- imageListToMatrix(images, mask)
 
 # Eigenanatomy decomposition
 eanat <- sparseDecom(inmatrix = mat,
-					 inmask = mask,
-					 verbose = TRUE)
+                     inmask = mask,
+                     nvecs = 32,
+                     sparseness = 1/32,
+                     its = 2,
+                     smooth = 1,
+                     cthresh = 1000,
+                     ell1 = 0.5,
+                     verbose = TRUE)
 
 eseg <- eigSeg(mask = mask,
 			imgList = eanat$eigenanatomyimages,
